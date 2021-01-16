@@ -48,7 +48,7 @@ class CreateUser {
 
     card.querySelector(".replace").innerHTML = `
         <div class="replace">
-            <figure><img src=${photo} class="card-img-top"/></figure>
+            <figure><img src=${photo} width="200px" height="200px" alt="" class="card-img-top"/></figure>
             <div class="card-body">
                 <ul class="list-group">
                     <li class="list-group-item"><label>Nombre completo :</label>${name} ${lastname}</li>
